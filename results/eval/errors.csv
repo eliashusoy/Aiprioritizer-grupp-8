@@ -1,0 +1,31 @@
+id,origin,run,ai_priority,key_priority,ai_importance,ai_relevant_to_user,ai_deadline,key_deadline,direction
+R01,real,Run 1: no profile,Medium,Low,Medium,,2026-12-06 23:59,2026-12-06 23:59,over
+R03,real,Run 1: no profile,High,Low,Medium,,2026-11-16 23:59,,over
+R07,real,Run 1: no profile,Low,Medium,Low,,,,under
+S01,synthetic,Run 1: no profile,High,Low,High,,2026-12-04 23:59,2026-12-04 23:59,over
+S03,synthetic,Run 1: no profile,High,Low,High,,,,over
+S06,synthetic,Run 1: no profile,Medium,Low,Medium,,2026-11-24 12:00,,over
+S08,synthetic,Run 1: no profile,Medium,Low,Medium,,2026-11-17 10:00,2026-11-17 10:00,over
+R13,real,Run 1: no profile,Medium,Low,Medium,,,,over
+R20,real,Run 1: no profile,Medium,Low,Medium,,,,over
+R24,real,Run 1: no profile,High,Low,High,,2026-12-18 14:00,2026-12-18 14:00,over
+R25,real,Run 1: no profile,Medium,High,Medium,,,,under
+R26,real,Run 1: no profile,High,Low,High,,,,over
+R27,real,Run 1: no profile,Medium,Low,Medium,,2026-09-25 12:00,2026-09-25 12:00,over
+R04,real,Run 2: profile v1,Low,High,Low,false,,,under
+R07,real,Run 2: profile v1,Low,Medium,Low,true,,,under
+S01,synthetic,Run 2: profile v1,High,Low,High,true,2026-12-04 23:59,2026-12-04 23:59,over
+S06,synthetic,Run 2: profile v1,Medium,Low,Medium,true,2026-11-24 18:00,,over
+S08,synthetic,Run 2: profile v1,Medium,Low,Medium,true,2026-11-17 10:00,2026-11-17 10:00,over
+R17,real,Run 2: profile v1,High,Medium,High,true,2026-11-26 23:59,2026-11-26 23:59,over
+R24,real,Run 2: profile v1,High,Low,High,true,2026-12-18 14:00,2026-12-18 14:00,over
+R25,real,Run 2: profile v1,Low,High,Low,false,,,under
+R01,real,Run 3: profile v2,Medium,Low,Medium,true,2026-12-06 23:59,2026-12-06 23:59,over
+R07,real,Run 3: profile v2,Low,Medium,Low,true,,,under
+S01,synthetic,Run 3: profile v2,High,Low,High,true,2026-12-04 23:59,2026-12-04 23:59,over
+S06,synthetic,Run 3: profile v2,Medium,Low,Medium,true,2026-11-24 12:00,,over
+S08,synthetic,Run 3: profile v2,Medium,Low,Medium,true,2026-11-17 10:00,2026-11-17 10:00,over
+R17,real,Run 3: profile v2,High,Medium,High,true,2026-11-26 23:59,2026-11-26 23:59,over
+R22,real,Run 3: profile v2,Medium,Low,Medium,true,,,over
+R24,real,Run 3: profile v2,High,Low,High,true,2026-12-18 14:00,2026-12-18 14:00,over
+R25,real,Run 3: profile v2,Medium,High,Medium,true,,,under

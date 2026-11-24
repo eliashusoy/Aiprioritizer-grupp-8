@@ -1,0 +1,15 @@
+id,origin,from_run,to_run,from_priority,to_priority,key_priority,change
+R01,real,Run 1: no profile,Run 2: profile v1,Medium,Low,Low,better
+R03,real,Run 1: no profile,Run 2: profile v1,High,Low,Low,better
+R04,real,Run 1: no profile,Run 2: profile v1,High,Low,High,worse
+S03,synthetic,Run 1: no profile,Run 2: profile v1,High,Low,Low,better
+R13,real,Run 1: no profile,Run 2: profile v1,Medium,Low,Low,better
+R17,real,Run 1: no profile,Run 2: profile v1,Medium,High,Medium,worse
+R20,real,Run 1: no profile,Run 2: profile v1,Medium,Low,Low,better
+R25,real,Run 1: no profile,Run 2: profile v1,Medium,Low,High,still wrong
+R26,real,Run 1: no profile,Run 2: profile v1,High,Low,Low,better
+R27,real,Run 1: no profile,Run 2: profile v1,Medium,Low,Low,better
+R01,real,Run 2: profile v1,Run 3: profile v2,Low,Medium,Low,worse
+R04,real,Run 2: profile v1,Run 3: profile v2,Low,High,High,better
+R22,real,Run 2: profile v1,Run 3: profile v2,Low,Medium,Low,worse
+R25,real,Run 2: profile v1,Run 3: profile v2,Low,Medium,High,still wrong

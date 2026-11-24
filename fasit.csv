@@ -1,0 +1,35 @@
+id,origin,include_in_eval,label_importance,label_priority_final,label_priority_AI,label_priority_human,disagreement_explanation,label_deadline,label_deadline_change,label_deadline_raw,label_task,notes
+R01,real,yes,Low,Low,Low,Low,,2026-12-06 23:59,added: 'open until 6 December 2026',,,"Subject missing in source - fill in from Outlook. PDF showed year 2016, assumed typo for 2026."
+R02,real,yes,High,High,High,High,,2026-11-30 23:59,,30.nov.26,,Subject missing in source - fill in from Outlook.
+R03,real,yes,Low,Low,Low,Low,,,,,,Student name anonymised to [NAME]. Subject missing in source. Navigation/boilerplate lines removed.
+R04,real,yes,High,High,High,High,,,removed: 15 Nov was the received date; text states no deadline,15.nov.26,,
+R05,real,no,Low,Low,Low,Low,,,,,,BODY TRUNCATED in PDF - paste the full email text before running.
+R06,real,yes,High,High,High,High,,2026-11-14 23:59,added: 'due this Saturday' from Mon 9 Nov,,,Relative deadline ('this Saturday') - good test case.
+R07,real,yes,Low,Medium,Low,Medium,Since it has to due with saftey and our livelyhood,,,,,Subject says 'Important' but content is informational - tests the noise filter. Received date taken from letter date.
+S01,synthetic,yes,High,Low,High,Low,"For us, who don't pay tuition, this would be irrelevant",2026-12-04 23:59,added: 'due on 4 December 2026',,,"Synthetic. Expected: high importance, fixed date."
+S02,synthetic,yes,High,High,High,High,,2026-11-19 10:00,added: midterm 'this Thursday (10:00-11:30)' from Mon 16 Nov,,,Synthetic. Relative date ('this Thursday') with exact time; action needed but no submission.
+S03,synthetic,yes,Medium,Low,Medium,Low,Does not concern student's (i.e us) only staying here for 1 sem.,,,,,Synthetic. Conditional deadline relative to each student's own visa - should the model invent a date?
+S04,synthetic,yes,Low,Low,Low,Low,,,,,,"Synthetic. Pure information, no action."
+S05,synthetic,yes,High,High,High,High,,2026-11-20 23:59,added: 'within 3 days' from 17 Nov (date-level; exact hour ambiguous),,,Synthetic. Relative deadline ('within 3 days') -> 20 Nov 2026.
+S06,synthetic,yes,Low,Low,Low,Low,,,,,,Synthetic. Optional event.
+S07,synthetic,yes,High,High,High,High,,2026-11-25 23:59,added: 'by 25 November 2026',,,Synthetic. Real consequence (loses Canvas access) - could also look like phishing.
+S08,synthetic,yes,Low,Low,Medium,Low,"If we don't have to be present, it is irrelevant",2026-11-17 10:00,added: inspection 'next Tuesday' 10:00 from Thu 12 Nov,,,Synthetic. Relative date ('next Tuesday' from Thu 12 Nov -> 17 Nov). Minor action.
+S09,synthetic,yes,High,High,Medium,High,Finals are.a high concern,2026-11-23 23:59,added: report clashes 'by 23 November 2026',,,Synthetic. Action only if there is a clash - conditional task.
+S10,synthetic,yes,Low,Low,Low,Low,,2026-12-01 23:59,added: 'Registration closes on 1 December',,,"Synthetic. Mixed Chinese/English, optional event with a registration deadline."
+R11,real,yes,Low,Low,Low,Low,,2026-11-18 23:59,,18-Nov-26,,"Body is a poster image; text transcribed from the image, QR code not transcribed. Optional volunteering, application deadline taken from poster."
+R12,real,yes,Low,Low,Low,Low,,,,,,"No deadline in this email (R01 says the LOQ is open until 6 Dec 2026). Same survey as R01, so Low."
+R13,real,yes,Low,Low,Low,Low,,,,,,"CAP digest, always irrelevant. Student name anonymised to [NAME]. ""Email me a copy"" links removed. Body cut off in the screenshot at the Academic section."
+R14,real,yes,Low,Low,Low,Low,,,,,,"Body is a poster image; text transcribed from the image. Optional event on 19 Nov 2026, no registration deadline."
+R15,real,yes,Low,High,Low,High,Just because date had passed doesn't mean importance/priority should have been ranked as Low,2026-11-10 10:30,time added: class exercise 'around 10.30' today,10-Nov-26,,"Class event (""today"" = 10 Nov), not a submission. Already passed at the time of labelling, so Low."
+R16,real,yes,High,High,High,High,,2026-11-27 23:59,,27-Nov-26,,Deadline stated explicitly. Smiley emoji removed from body.
+R17,real,yes,High,Medium,High,Medium,,2026-11-26 23:59,,26-Nov-26,,"Several dates: 12 Nov guest speaker (passed), 19 Nov lecture + optional auction (2 extra points, sign-up after guest lecture), 26 Nov last simulation (20 pts, mandatory). Deadline column = 26 Nov."
+R18,real,yes,Low,Low,Low,Low,"It is a student's comment for a class, irrelevant information for me",,,,,"Another student's name and ID in the original, anonymised. Automatic Canvas digest of a discussion comment, no action."
+R19,real,yes,Low,Low,Low,Low,,,,,,"Optional, reward HKD30. No deadline stated, only redemption slots (13, 16, 27 Nov). Survey is on an external site (findjobjob.com)."
+R20,real,yes,Low,Low,Low,Low,,,,,,"Irrelevant for exchange students (no work or internship allowed on student visa). Screenshot starts mid-email, so the top of the body may be missing. Typos (""Graudate"", ""KMPG"", ""I will nominated"") are in the source."
+R21,real,yes,High,High,High,High,,2026-10-22 23:59,,22-Oct-26,,"Top of the email (header, time, greeting) is cut off in the screenshot; greeting taken from the inbox preview. Time not visible (arrived after 18:21 judging by inbox order). Contains a forwarded earlier message from 7 Oct. Session/team codes replaced with [CODE]; another student's email address and the recipient list anonymised. Attachment ""Simulation Pre…"" (PDF) not transcribed."
+R22,real,yes,Low,Low,Low,Low,,,,,,"Another student's ID anonymised. Comment text is truncated in the original email (ends ""w...""). Automatic Canvas digest, no action."
+R23,real,yes,Low,Low,Low,Low,,,,,,"Informational, no action or deadline. Images/map not transcribed. ""Mid-December 2026"" is an expected reopening, not a deadline. Screenshot ends at the footer banner."
+R24,real,yes,High,Low,Medium,Low,Final exam far off from when email was sent. No urgency at all,2026-12-18 14:00,"time added: exam Dec. 18, 1400-1600",18-Dec-26,,"Deadline column = exam date (14:00-16:00). No action needed now, but the date must be noted."
+R25,real,yes,Medium,High,Medium,High,Dates for presentations. Important,,,,,"Message from the instructor via Canvas inbox. Presentation sequence lists team numbers per week (own team number needed to know when to present); exact dates not stated, so deadline left empty. Canvas footer removed."
+R26,real,yes,Low,Low,Low,Low,,,,,,"Body is a poster image; text transcribed from the image, QR code not transcribed. General rules reminder, no action or deadline. Screenshot ends at the footer banner."
+R27,real,yes,Low,Low,Low,Low,,2026-09-25 12:00,time added: 'by 25th September 12:00',25-Sep-26,,"Sent by a student, name anonymised. Optional sports event; registration deadline 25 Sep 12:00. Disclaimer footer removed."

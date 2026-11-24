@@ -1,0 +1,10 @@
+run,subset,n,urgent_counted_as_high,final_correct,llm_correct,final_correct_strict,llm_correct_strict,importance_correct,high_found,high_in_key,high_flagged_correct,high_flagged,high_missed_ids,false_alarm_ids,low_kept_low,low_in_key,errors_over,errors_under,errors_other,deadline_exact,deadline_same_date,deadline_wrong_date,deadline_both_empty,deadline_missed,deadline_extra,input_tokens,output_tokens,cost_usd,avg_seconds
+Run 1: no profile,all,33,yes,20,20,18,17,22,10,11,10,15,R25,R03 S01 S03 R24 R26,9,20,11,2,0,16,0,0,14,1,2,22907,2812,0.01025,1.48
+Run 1: no profile,real,23,yes,14,14,12,12,15,6,7,6,9,R25,R03 R24 R26,7,14,7,2,0,9,0,0,12,1,1,16792,1883,0.0073,1.44
+Run 1: no profile,synthetic,10,yes,6,6,6,5,7,4,4,4,6,,S01 S03,2,6,4,0,0,7,0,0,2,0,1,6115,929,0.00295,1.56
+Run 2: profile v1,all,33,yes,25,25,23,21,27,9,11,9,12,R04 R25,S01 R17 R24,16,20,5,3,0,17,0,0,15,0,1,30794,3807,0.01381,1.51
+Run 2: profile v1,real,23,yes,18,18,16,16,20,5,7,5,7,R04 R25,R17 R24,13,14,2,3,0,10,0,0,13,0,0,22289,2540,0.00973,1.53
+Run 2: profile v1,synthetic,10,yes,7,7,7,5,7,4,4,4,5,,S01,3,6,3,0,0,7,0,0,2,0,1,8505,1267,0.00407,1.46
+Run 3: profile v2,all,33,yes,24,24,22,20,27,10,11,10,13,R25,S01 R17 R24,14,20,7,2,0,17,0,0,15,0,1,31256,3784,0.01392,1.62
+Run 3: profile v2,real,23,yes,17,17,15,15,20,6,7,6,8,R25,R17 R24,11,14,4,2,0,10,0,0,13,0,0,22611,2522,0.00981,1.6
+Run 3: profile v2,synthetic,10,yes,7,7,7,5,7,4,4,4,5,,S01,3,6,3,0,0,7,0,0,2,0,1,8645,1262,0.00411,1.66

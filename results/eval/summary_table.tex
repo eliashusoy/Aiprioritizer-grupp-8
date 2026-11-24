@@ -1,0 +1,16 @@
+% Requires \usepackage{booktabs}
+\begin{table}[ht]
+\centering
+\small
+\caption{Prioritizer runs compared with the answer key (Urgent counted as High).}
+\label{tab:eval-summary}
+\begin{tabular}{lrrrrr}
+\toprule
+Run & Hybrid correct & LLM alone & High recall & High precision & Noise filtered \\
+\midrule
+Run 1: no profile & 20/33 (61\%) & 20/33 (61\%) & 10/11 (91\%) & 10/15 (67\%) & 9/20 (45\%) \\
+Run 2: profile v1 & 25/33 (76\%) & 25/33 (76\%) & 9/11 (82\%) & 9/12 (75\%) & 16/20 (80\%) \\
+Run 3: profile v2 & 24/33 (73\%) & 24/33 (73\%) & 10/11 (91\%) & 10/13 (77\%) & 14/20 (70\%) \\
+\bottomrule
+\end{tabular}
+\end{table}

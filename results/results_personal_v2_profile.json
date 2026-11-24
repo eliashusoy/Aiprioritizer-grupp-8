@@ -1,0 +1,22 @@
+{
+  "student_type": "Exchange student",
+  "study_period": "Aug–Dec 2026",
+  "programme": "BSc in Economics",
+  "enrolled_courses": [
+    "GE2340",
+    "CB4601",
+    "MGT4309",
+    "MGT3305",
+    "MGT4315",
+    "GE2239"
+  ],
+  "residence": "Student Campus",
+  "fees_paid_to_cityu": "no",
+  "visa_or_entry_permit": "student visa valid until end of study period",
+  "work_or_internship_allowed_in_hk": "no",
+  "interested_in": [
+    "student life",
+    "hanging out with friends",
+    "workout"
+  ]
+}
